@@ -1,0 +1,41 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 15%;
+}
+
+#hour,
+#min,
+#sec {
+  position: absolute;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 5px;
+  height: 54px;
+  border-radius: 20px;
+  top: 27%;
+  left: 49.86%;
+  background-color: rgba(0, 0, 0, 0.856);
+}
+
+#min {
+  width: 4px;
+  height: 68px;
+  border-radius: 20px;
+  top: 21%;
+  left: 49.86%;
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+#sec {
+  width: 2px;
+  height: 79px;
+  border-radius: 20px;
+  top: 16%;
+  left: 49.86%;
+  background-color: rgba(0, 0, 0, 0.329);
+}
